@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+YouWrite!
+{% endblock %}
+
+{% block body %}
+<link rel = "stylesheet" type = "text/css" href="{{ url_for('static', filename='css/MyProfile.css') }}" >
+
+<body style = "background-image: url({{ url_for('static', filename ='img/MyProfileBackground.jpg') }})";>
+
+<div class = "username">
+	<p><font size= "40"><b><u>USERNAME: aruchan </b></u></font></p>
+</div>
+
+<div class = "level">
+	<p><font size= "40"><b><u>LEVEL: Bronze </b></u></font></p>
+</div>
+
+</div>
+{% endblock %}

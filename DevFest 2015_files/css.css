@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Merriweather Sans Light'), local('MerriweatherSans-Light'), url(http://fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88Gowby3qP8l_EZEfCX16eKT4TP3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Sans Regular'), local('MerriweatherSans-Regular'), url(http://fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sMoBJSyBiVuloIc8IXLz46o.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Sans Bold'), local('MerriweatherSans-Bold'), url(http://fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowaILZ3_VFR4y34zupljc1bH3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Merriweather Sans Italic'), local('MerriweatherSans-Italic'), url(http://fonts.gstatic.com/s/merriweathersans/v5/3Mz4hOHzs2npRMG3B1ascbBr0pHejMAHEYQxdlZpOYc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(http://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37ZrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}

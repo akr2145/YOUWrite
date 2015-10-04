@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+YouWrite!
+{% endblock %}
+
+{% block body %}
+
+<link rel = "stylesheet" type = "text/css" href="{{ url_for('static', filename='css/PublicEssays.css') }}" >
+
+<div class = "topblock" style="background-color: #215968">
+	<div class = "title" style="position: relative; top: 10px">
+		<font size= "70"><b>Public Essays</b></font>
+	</div>
+</div>
+
+<div class = "midbox" style="background-color: #31859C">
+</div>
+
+<div class = "smallbox1" style = "background-color: #93CDDD">
+<a href="https://docs.google.com/a/columbia.edu/document/d/1htfWMZfDzUolpgvV24uGd7MqShoNGdSppiAlWN0eqCI/edit?usp=sharing">
+Prog1 Essay </a>
+
+</div>
+
+<div class = "smallbox2" style = "background-color: #DFDFDF">
+<a href="https://docs.google.com/a/columbia.edu/document/d/1nDFpoa1GCPwDdHGEViVbAQg3zhJj6Vk5-f9Dj5Uy9m8/edit?usp=sharing">
+Is the World Online or On the Line?</a>
+</div>
+
+<div class = "smallbox3" style = "background-color: #93CDDD">
+
+</div>
+
+
+{% endblock %}

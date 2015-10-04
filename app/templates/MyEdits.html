@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}
+YouWrite!
+{% endblock %}
+
+{% block body %}
+
+<link rel = "stylesheet" type = "text/css" href="{{ url_for('static', filename='css/MyEdits.css') }}" > 
+
+<div class = "topblock" style="background-color: #215968">
+	<div class = "title" style="position: relative; top: 10px">
+		<font size= "70"><b>My Edits</b></font>
+	</div>
+</div>
+
+<div class = "midbox" style="background-color: #31859C">
+	<div class = "subtitle" style="position: relative; top: -10px; left: 20px">
+		<font face = "corbel" size= "50"><b>CURRENT</b></font>
+	</div>
+	<div class = "subtitle" style="position: relative; top: -80px; left: 1250px">
+		<font face, "corbel" size= "50"><b>PAST</b></font>
+	</div>
+</div>
+
+<div class = "left" style = "background-color: #93CDDD">
+</div>
+
+<div class = "right" style = "background-color: #93CDDD">
+</div>
+
+
+
+
+{% endblock %}

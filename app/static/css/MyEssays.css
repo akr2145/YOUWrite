@@ -1,0 +1,64 @@
+
+.topblock
+{
+	color: white;
+	width: 1408px;
+	height: 100px;
+	margin-top: -230px;
+	box-shadow: inset 0 0 10px 5px #000000;
+}
+
+.title
+{
+	font-family: Corbel, Helvetica, Arial;
+	margin-left: 50px;
+}
+
+.midbox
+{
+	width: 1408px;
+	height: 495px;
+}
+
+.topleft
+{
+	width: 660px;
+	height: 210px;
+	border-radius: 10px;
+	margin-left: 25px;
+	position: relative;
+	margin-top: -466px;
+}
+
+.topright
+{
+	width: 660px;
+	height: 210px;
+	border-radius: 10px;
+	margin-left: 720px;
+	margin-top: -210px;
+}
+
+.bottomleft
+{
+	width: 655px;
+	height: 210px;
+	border-radius: 10px;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.bottomright
+{
+	width: 655px;
+	height: 210px;
+	border-radius: 10px;
+	margin-left: 720px;
+	margin-top: -210px;
+}
+
+.notification
+{
+	margin-left: 1230px;
+	margin-top: -543px; 
+}

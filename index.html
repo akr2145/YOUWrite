@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+    <!--
+    HOW TO USE THIS DOCUMENT
+    ========================
+
+     -> Replace the ten numbered and commented out areas with your site's data.
+     -> Extend the established blocks in admin/admin.html and other templates.
+    -->
+    <title>YouWrite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ADI's annual week-long app development bonanza — 5 days of workshops followed by a 24-hour hackathon. Learn, code, build something new and compete for awesome prizes. Oh, and there's food. Lots of it.">
+    <meta name="author" content="Application Development Intiative">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="iXjEnyS-JZkiL-BT3g9VzyydT3S6C33nL0TAQeO5oB8">
+    <link rel="alternate" hreflang="en" href="http://www.example.com/">
+
+    <!-- Google Authorship and Publisher Markup -->
+    <meta itemprop="name" content="YouWrite">
+    <meta itemprop="description" content="ADI's annual week-long app development bonanza — 5 days of workshops followed by a 24-hour hackathon. Learn, code, build something new and compete for awesome prizes. Oh, and there's food. Lots of it.">
+    <meta itemprop="image" content="https://avatars1.githubusercontent.com/u/987267?v=2&amp;s=200">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="photo">
+    <meta name="twitter:site" content="adicu">
+    <meta name="twitter:title" content="YouWrite">
+    <meta name="twitter:description" content="ADI's annual week-long app development bonanza — 5 days of workshops followed by a 24-hour hackathon. Learn, code, build something new and compete for awesome prizes. Oh, and there's food. Lots of it.">
+    <meta name="twitter:creator" content="&lt;jinja2.runtime.BlockReference object at 0x7f72cd2af090&gt;">
+    <meta name="twitter:image:src" content="https://youwrite.andyxu.me/static/img/logo/devfest-with-background.png">
+    <meta name="twitter:domain" content="devfe.st">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="YouWrite">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://devfe.st">
+    <meta property="og:image" content="https://youwrite.andyxu.me/static/img/logo/devfest-with-background.png">
+    <meta property="og:description" content="ADI's annual week-long app development bonanza — 5 days of workshops followed by a 24-hour hackathon. Learn, code, build something new and compete for awesome prizes. Oh, and there's food. Lots of it."><!-- Web Fonts -->
+    <link href="DevFest%202015_files/css_002.css" rel="stylesheet" type="text/css">
+    <link href="DevFest%202015_files/font-awesome.css" rel="stylesheet">
+    <link href="DevFest%202015_files/css.css" rel="stylesheet" type="text/css">
+    <!-- Stylesheet reset -->
+    <link rel="stylesheet" type="text/css" href="DevFest%202015_files/reset.css"><link rel="stylesheet" type="text/css" href="DevFest%202015_files/app.css"><!-- jQuery -->
+    <script src="DevFest%202015_files/analytics.js" async=""></script><script type="text/javascript" src="DevFest%202015_files/jquery.js"></script>
+    <script src="DevFest%202015_files/mobile-detect.js"></script>
+    <!-- JavaScript imports --><!-- Favicon.ico -->
+    <link rel="shortcut icon" href="https://youwrite.andyxu.me/static/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://youwrite.andyxu.me/static/img/favicon.ico" type="image/x-icon"><!--Google Analytics-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-18504951-6', 'auto');
+      ga('send', 'pageview');
+
+    </script></head>
+<body><div class="backgrounds hidden-tablet">
+    <div class="background" data-page="1" style="background-image:url(DevFest%202015_files/background.jpg)">
+    </div>
+    <div class="background with-nav hidden" data-page="10" style="background-image:url(/static/img/columbia.jpg)">
+         <div class="scrim">
+             <div style="opacity: 0.5; transform: scale(0.75);" class="fading-logo">
+                <i style="background-image: url(/static/img/logo/devfest-full.png);"></i>
+             </div>
+         </div>
+    </div>
+</div>
+<div class="pages" id="top">
+    <div id="register" class="page hero with-image" data-page="1">
+        <div class="background hidden-desktop" style="background-image:url(/static/img/cover.jpg)">
+        </div>
+        <div style="background-color: rgba(0, 174, 239, 0.5);" class="inner"><div class="header white no-spacer fixed" id="">
+    <h1 class="title">
+        <a href="index.html">
+
+            <center><img src="DevFest%202015_files/YouWriteLogo.png" height=35% width=35%></center>
+        </a>
+    </h1> <center><h2 class="subtitle">Edit your <ul class="adjectives">
+                    <li style="opacity: 1;" class="adjective active" data-no="1">Progression 1</li>
+                    <li style="opacity: 0;" class="adjective" data-no="2">Progression 2</li>
+                    <li style="opacity: 0;" class="adjective" data-no="3">Progression 3</li>
+                    <li style="opacity: 0;" class="adjective" data-no="4">Progression 4</li>
+                    <li style="opacity: 0;" class="adjective" data-no="5">Rough Drafts</li>
+                </ul></h2>
+
+    <h4 class="date hidden-phone">&nbsp;&nbsp;Columbia University&nbsp;&nbsp;|&nbsp;&nbsp;NYC</h4>
+    <h4 class="date phone-only">Columbia University&nbsp;&nbsp;|&nbsp;&nbsp;NYC</h4></div></center>
+<div class="header-spacer ">
+</div><div class="sub-page">
+
+
+
+
+
+
+<div class="sub-page centered" id=“register-button”>
+
+                           <p style="opacity: 1;" class="focus focus-centered fade-out"><br><br><br>One edit at a time, YouWrite will unlock the potential of the <br class="hidden-desktop"><strong>next generation</strong> of 
+
+writers.</p>
+                <p style="opacity: 1;" class="focus focus-centered fade-out"> YouWrite is Columbia's new platform for helping UWriting students edit each others essay.  YouWrite is <strong>changing the game</strong>.</p>
+</div>
+
+
+
+
+
+
+
+                <div style="opacity: 1;" class="scroll-down fade-out animated fade-in-up">
+                    <a class="scroll" href="#about">
+                        <p style="opacity: 1;" class="fade-out">More Info</p>
+                      <p style="opacity: 1;" class="fade-out">v</p>
+                    </a>
+                </div>
+            </div>
+            <div class="sub-page centered" id="about">
+                <p style="opacity: 1;" class="focus focus-centered fade-out">YouWrite is an online platform that enables <strong>cooperation</strong> among the various Columbia University students enrolled in University Writing.  YouWrite fosters a 
+cooperative writing community, where students can easily offer and receive unique 
+<strong>perspectives, tips, and edits</strong> on their essays.</p>
+                                   
+
+<p style="opacity: 1;" class="focus focus-centered fade-out">
+                    <a class="white-inverse button" href="user.html">
+                        Sign Up
+                    </a>
+                </p>
+
+
+
+               
+                <div class="scroll-down animated fade-in-up">
+                    <a class="scroll" href="#schedule">
+                        <p style="opacity: 1;" class="fade-out">More Info</p>
+                          <p style="opacity: 1;" class="fade-out">v</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="schedule" class="page white with-nav" data-page="2">
+        <nav class="">
+    <a class="ham hidden-desktop">
+        <span class="bar one"></span>
+        <span class="bar two"></span>
+        <span class="bar three"></span>
+    </a>
+    <div class="outer">
+        <div class="inner">
+            <div class="logo">
+                <a class="scroll" href="#top">
+                    <img src="DevFest%202015_files/devfest-small.png">
+                </a>
+            </div>
+            <ul class="menu"><font color="#111">
+<br>
+                <li><a href="youwrite.andyxu.me/profile"><p>My Profile</p></a></li>
+<br>
+                <li><a class="scroll" href="youwrite.andyxu.me/edit"><p>My Edits</p></a></li>
+<br>
+                <li><a class="scroll" href="youwrite.andyxu.me/essay"><p>My Essays</p></a></li>
+<br>
+                <li><a class="scroll" href="youwrite.andyxu.me/public"><p>Public Essays</p></a></li>
+              
+            </font></ul>
+            <div class="bottom-spacer"></div>
+            <ul class="menu bottom">
+                <li>
+                    
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+        <div class="inner">
+            <div class="header blue" id="measure-header">
+    <h1 class="title">
+        <a href="https://youwrite.andyxu.me/">
+            <span class="bold">How</span>it Works
+        </a>
+    </h1></div>
+<div class="header-spacer ">
+</div>
+                        <ol class="days-longform"><li class="day" data-day="1" data-offset="header" id="day-1">
+                    <h2 style="text-align:left">YouWrite matches students with editors.  In order to submit an essay for editing, a
+student must first edit another student’s essay.  As students edit essays, they build 
+their own profiles.</h2>
+
+<h2 style="text-align:left"><font size=5rem>• If a student consistently gives amazing edits, they can earn a gold nugget.</font></h2>
+<h2 style="text-align:left"><font size=5rem>• If a student consistently gives good edits, they can earn a silver nugget.</font></h2>
+  <h2 style="text-align:left"><font size=5rem>• If a student consistently gives average edits, they can earn a bronze nugget.</font></h2>
+
+        </div>
+    </div>
+    <div id="faq" class="page blue with-nav" data-page="3">
+        <div class="inner">
+            <div class="header white" id="">
+    <h1 class="title">
+        <a href="https://youwrite.andyxu.me/">
+            <span class="bold">Why </span>us?
+        </a>
+    </h1></div>
+<div class="header-spacer ">
+</div>
+            <div class="featured-faqs"><div class="faq">
+                        <h2 style="text-align:right">YouWrite believes in the power of the masses.  The more essays you edit, the more
+edits you receive.  We aim to create a robust community, where your essays will 
+undergo multiple rounds of edits from different students.  In addition to giving you 
+more advice, having more editors corrects for any biases resulting from differing 
+qualities of editors.  We’ll give you all the resources you need to nail those 
+progressions!</h2>
+                    
+        </div>
+    </div> </div> </div>
+
+
+    <div id="judges" class="page white with-nav" data-page="4">
+        <div class="inner">
+            <div class="header blue fixed" id="">
+    <h1 class="title">
+        <a href="https://youwrite.andyxu.me/">
+            <span class="bold">The</span>Team
+        </a>
+    </h1></div>
+<div class="header-spacer ">
+</div>
+
+            <div class="judges">
+
+
+                                <div class="two-judges">
+
+                    <div class="judge">
+    <img src="DevFest%202015_files/Anita.jpg">
+    <h2>Anita Rao</h2>
+    <p>Anita is a prospective Electrical Engineering Major from Texas who enjoys traditional Indian dance.</p>
+			</div>
+
+                    <div class="judge">
+    <img src="DevFest%202015_files/Andy.jpg">
+    <h2>Andy Xu</h2>
+    <p>Andy is a prospective Computer Engineering Major from Shenzhen who enjoys anime and Japanese culture.</p>
+			</div>
+
+                </div>
+
+ <div class="two-judges">
+
+                    <div class="judge">
+    <img src="DevFest%202015_files/Vaidehi.jpg">
+    <h2>Vaidehi Dalmia</h2>
+    <p>Vaidehi is a prospective Computer Science major from Delhi who enjoys table tennis and is nationally ranked in India.</p>
+			</div>
+
+                    <div class="judge">
+    <img src="DevFest%202015_files/Arunavha.jpg">
+    <h2>Arunavha Chanda</h2>
+    <p>Arunavha is a prospective Computer Engineering major from Kolkata and an avid soccer fan.</p>
+			</div>
+
+                </div>
+
+ <div class="two-judges">
+
+                    <div class="judge">
+    <img src="DevFest%202015_files/Shalva.jpg">
+    <h2>Shalva Kohen</h2>
+    <p>Shalva is a prospective Computer Engineering major from Seattle who enjoys playing trumpet.</p>
+			</div>
+
+                    <div class="judge">
+    <img src="DevFest%202015_files/Saahil.jpg">
+    <h2>Saahil Jain</h2>
+    <p>Saahil is an undeclared engineer from Davy, Florida who enjoys life.</p>
+			</div>
+
+                </div>
+
+
+ <div class="two-judges">
+
+                    <div class="judge">
+    <img src="DevFest%202015_files/Sean.jpg">
+    <h2>Sean Lee</h2>
+    <p>Sean is a prospective Computer Science major from Seoul who enjoys food.</p>
+			</div>
+
+                    <div class="judge">
+    <img src="DevFest%202015_files/Joseph.jpg">
+    <h2>Joseph Dominicus Lap</h2>
+    <p>Joseph is a prospective Music and Physics major from NYC who has diverse interests.</p>
+			</div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+  
+
+
+        <div id="speakers" class="page blue with-nav" data-page="5">
+        <div class="inner">
+            <div class="header white" id="">
+    <h1 class="title">
+        <a>
+            <span class="bold">The</span>Honor Code
+        </a>
+    </h1></div>
+<div class="header-spacer ">
+</div>
+	<div class="featured-faqs"><div class="faq">
+            <h2 style="text-align:right">All members of the YouWrite community must exhibit academic honesty.  In other 
+words, don’t plagiarize / pass off other people’s ideas as your own.  Failure to 
+adhere to our standards will result in expulsion from the community and / or 
+academic punishment.</h2>
+</div></div>
+
+
+                   </div>
+    </div>
+    <div id="curriculum" class="page white with-nav" data-page="6">
+        <div class="inner">
+            <div class="header blue" id="">
+    <h1 class="title">
+        <a>
+            <span class="bold">The</span>Future
+        </a>
+    </h1></div>
+<div class="header-spacer ">
+</div>
+
+<ol class="days-longform"><li class="day" data-day="1" data-offset="header" id="day-1"> <h2 style="text-align:right">Having writer’s block? Fear no more. Soon, we’ll be launching our “warm up” section, which will include writing exercises and professional writing tips. We’ll even go mobile, meaning you will be able to get your daily dose of writing inspiration wherever you go.</h2>
+</ol> </li>
+            
+    </div>
+    <div id="kickoff" class="page blue with-image with-nav" data-page="10">
+        <div class="inner">
+            
+<div class="header-spacer ">
+</div>
+        </div>
+        <img class="hidden-desktop" src="DevFest%202015_files/columbia.jpg">
+    </div>
+    <div id="contact" class="page white with-nav" data-page="11">
+        <div class="inner">
+            <div class="header blue" id="">
+ </div>
+<div class="header-spacer ">
+</div>
+         <center><img src="DevFest%202015_files/puddles.jpg" height=15% width=15%></center>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="DevFest%202015_files/script.js"></script>
+</body></html>

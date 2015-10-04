@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Hello World!
+{% endblock %}
+
+
+{% block body %}
+<div class="row">
+  <div class="medium-9 medium-centered columns">
+    <div class="panel">
+        <h1>Search</h1>
+        <form action="/search" method="post">
+            <input type="text" placeholder="Search for your idea" name="user_search" required/>
+            <button type="submit">Search</button>
+        </form>
+</div>
+  </div>
+</div>
+        {% block results %}{% endblock %}
+{% endblock %}
+</html>

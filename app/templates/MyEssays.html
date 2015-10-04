@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block title %}
+YouWrite!
+{% endblock %}
+
+{% block head %}
+<SCRIPT LANGUAGE="JavaScript">
+function AlertCC(label, msg)
+{
+  var cc1 = 
+    "<TITLE>Notifications</TITLE>" +
+    "<BODY BGCOLOR='FFFFFF'><TABLE WIDTH=100% HEIGHT=100% VALIGN=CENTER ALIGN=CENTER BORDER=0><TR>" +
+        "<TH COLSPAN=2 WIDTH=100% HEIGHT=90% VALIGN=CENTER ALIGN=CENTER>"+"<FONT SIZE=4 FACE=ARIAL>"
+  
+  var cc2 = "<FONT COLOR='00AEEF'><B>"+label+"</B></FONT><BR><P>"
+
+  var cc3 =   
+    "</P></TH></TR><TR>"+
+    "<TD WIDTH=50% HEIGHT=60% VALIGN=BOTTOM ALIGN=CENTER>"+
+    "<FORM><INPUT TYPE='BUTTON' VALUE='YES'" +
+                   "onClick='self.close()'>"  +
+    "</FORM></TD>"
+
+    var cc4 =   
+    "<TD WIDTH=50% HEIGHT=60% VALIGN=BOTTOM ALIGN=CENTER>"+
+    "<FORM><INPUT TYPE='BUTTON' VALUE='NO'" +
+                   "onClick='self.close()'>"  +
+    "</FORM></TD></TR></TABLE></BODY>"
+
+ 
+  popup = window.open("","popDialog","height=200,width=400,scrollbars=no")
+  popup.document.write(cc1+cc2+msg+cc3+cc4)
+  popup.document.close()
+}
+
+function ccalert1()
+{
+  AlertCC('Someone wants to edit your essay', 'Let Anita edit your essay?')
+}
+
+</SCRIPT>
+
+{% endblock %}
+
+{% block body %}
+
+<link rel = "stylesheet" type = "text/css" href="{{ url_for('static', filename='css/MyEssays.css') }}" >
+
+<div class = "topblock" style="background-color: #215968">
+	<div class = "title" style="position: relative; top: 10px">
+		<font size= "70"><b>My Essays</b></font>
+	</div>
+</div>
+
+<div class = "midbox" style = "background-color:  #31859C">
+</div>
+
+<div class = "topleft" style = "background-color: #93CDDD">
+<a href="https://docs.google.com/a/columbia.edu/document/d/1htfWMZfDzUolpgvV24uGd7MqShoNGdSppiAlWN0eqCI/">
+Prog1 Essay</a> 
+</div>
+
+<div class = "topright" style = "background-color: #93CDDD">
+</div>
+
+<div class = "bottomleft" style = "background-color: #93CDDD">
+</div>
+
+<div class = "bottomright" style = "background-color: #93CDDD">
+</div>
+
+
+
+<div class = "notification">
+<CENTER><FORM><a href="#" class="button small">  <INPUT TYPE="BUTTON" STYLE="background-color: #31859C" VALUE="Notifications" onClick="ccalert1()"></a></FORM></CENTER>
+</div>
+
+
+
+{% endblock %}

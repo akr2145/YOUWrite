@@ -1,0 +1,53 @@
+.topblock
+{
+	color: white;
+	width: 1408px;
+	height: 100px;
+	margin-top: -230px;
+	box-shadow: inset 0 0 10px 5px #000000;
+}
+
+.title
+{
+	font-family: Corbel, Helvetica, Arial;
+	margin-left: 50px;
+}
+
+.midbox
+{
+	width: 1408px;
+	height: 495px;
+}
+
+.smallbox1
+{
+	width: 1200px;
+	height: 75px;
+	border-radius: 10px;
+	position: relative;
+	margin-top: -420px;
+	margin-left: 80px;
+	box-shadow: -5px -5px 10px #000000;
+}
+
+.smallbox2
+{
+	width: 1200px;
+	height: 75px;
+	border-radius: 10px;
+	position: relative;
+	margin-top: 60px;
+	margin-left: 80px;
+	box-shadow: -5px -5px 10px #000000;
+}
+
+.smallbox3
+{
+	width: 1200px;
+	height: 75px;
+	border-radius: 10px;
+	position: relative;
+	margin-top: 60px;
+	margin-left: 80px;
+	box-shadow: -5px -5px 10px #000000;
+}
